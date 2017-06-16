@@ -7,6 +7,9 @@
 
         const string WRITER_KEY = "writer";
 
+        public WritingService() : this(new ApiSettings(), new WriterFactory())
+        {
+        }
         public WritingService(ISettings settings, IWriterFactory factory)
         {
             _settings = settings;

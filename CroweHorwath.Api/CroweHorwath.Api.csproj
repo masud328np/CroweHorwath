@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiSettings.cs" />
     <Compile Include="ConsoleWriter.cs" />
     <Compile Include="DatabaseWriter.cs" />
     <Compile Include="ISettings.cs" />
@@ -49,6 +50,7 @@
     <Compile Include="IWriterFactory.cs" />
     <Compile Include="IWritingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WriterFactory.cs" />
     <Compile Include="WritingService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

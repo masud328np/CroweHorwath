@@ -11,6 +11,8 @@ namespace CroweHorwath.Client.Console
     {
         static void Main(string[] args)
         {
+            var service = new WritingService();
+            service.RequestToWrite("Hello World");
             System.Console.ReadLine();
         }
     }
