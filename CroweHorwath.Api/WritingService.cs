@@ -17,7 +17,7 @@
         {
             var writerName = _settings.GetValueByKey(WRITER_KEY);
             var writer = _factory.GetWriter(writerName);
-            
+            writer.Write(txt);
         }
     }
 }
