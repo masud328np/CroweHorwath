@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CroweHorwath.Client.Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CroweHorwath.Api", "CroweHorwath.Api\CroweHorwath.Api.csproj", "{50507761-FDAD-4A2F-B00B-1B488D1C6EAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CroweHorwath.Client.Tests.Unit", "CroweHorwath.Client.Tests.Unit\CroweHorwath.Client.Tests.Unit.csproj", "{2413FF04-6D93-4494-B6DE-C6088F8FC970}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{50507761-FDAD-4A2F-B00B-1B488D1C6EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50507761-FDAD-4A2F-B00B-1B488D1C6EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50507761-FDAD-4A2F-B00B-1B488D1C6EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2413FF04-6D93-4494-B6DE-C6088F8FC970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2413FF04-6D93-4494-B6DE-C6088F8FC970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2413FF04-6D93-4494-B6DE-C6088F8FC970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2413FF04-6D93-4494-B6DE-C6088F8FC970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
